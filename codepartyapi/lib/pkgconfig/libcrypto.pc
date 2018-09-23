@@ -1,0 +1,13 @@
+prefix=/Users/jonassuedfels/anaconda3/envs/codepartyapi
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+enginesdir=${libdir}/engines
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 1.0.2p
+Requires: 
+Libs: -L${libdir} -lcrypto
+Libs.private: -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/jonassuedfels/anaconda3/envs/codepartyapi/lib -L/Users/jonassuedfels/anaconda3/envs/codepartyapi/lib 
+Cflags: -I${includedir} 

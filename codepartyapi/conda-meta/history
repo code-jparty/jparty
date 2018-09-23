@@ -1,0 +1,29 @@
+==> 2018-09-17 20:46:02 <==
+# cmd: /Users/jonassuedfels/anaconda3/bin/conda create -p /Users/jonassuedfels/anaconda3/envs/codepartyapi -y python=3.6
++defaults::ca-certificates-2018.03.07-0
++defaults::certifi-2018.8.24-py36_1
++defaults::libcxx-4.0.1-h579ed51_0
++defaults::libcxxabi-4.0.1-hebd6815_0
++defaults::libedit-3.1.20170329-hb402a30_2
++defaults::libffi-3.2.1-h475c297_4
++defaults::ncurses-6.1-h0a44026_0
++defaults::openssl-1.0.2p-h1de35cc_0
++defaults::pip-10.0.1-py36_0
++defaults::python-3.6.6-hc167b69_0
++defaults::readline-7.0-h1de35cc_5
++defaults::setuptools-40.2.0-py36_0
++defaults::sqlite-3.24.0-ha441bb4_0
++defaults::tk-8.6.8-ha441bb4_0
++defaults::wheel-0.31.1-py36_0
++defaults::xz-5.2.4-h1de35cc_4
++defaults::zlib-1.2.11-hf3cbc9b_2
+# update specs: ['python=3.6']
+==> 2018-09-17 20:46:54 <==
+# cmd: /Users/jonassuedfels/anaconda3/bin/conda install -p /Users/jonassuedfels/anaconda3/envs/codepartyapi flask -y
++defaults::click-6.7-py36hec950be_0
++defaults::flask-1.0.2-py36_1
++defaults::itsdangerous-0.24-py36_1
++defaults::jinja2-2.10-py36_0
++defaults::markupsafe-1.0-py36h1de35cc_1
++defaults::werkzeug-0.14.1-py36_0
+# update specs: ['flask']
